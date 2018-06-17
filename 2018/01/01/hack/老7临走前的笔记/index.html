@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>老7临走前的笔记 | rango&#39;s note</title>
+    
+    
+        <meta name="keywords" content="老7临走前的笔记" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="此人月入万刀，分享了一些思路。不过老7已经要退出圈子了，趁他还没有删完他的贴我赶快备份了一下他的帖子 隔壁论坛会员老7分享自己个人网站利用python配合C++全自动采集内容站群算法做adsense月入万刀的实操方案。虽然不是教程的具体操作方式，但是他通过回答大家的问题让有基础的用户得到一些思路，受到一定启发，原帖已经被设置为最高权限，无法浏览了。 此算法为python配合C++，改进和训练人工智">
+<meta property="og:type" content="article">
+<meta property="og:title" content="老7临走前的笔记">
+<meta property="og:url" content="http://blog.scavenger.top/2018/01/01/hack/老7临走前的笔记/index.html">
+<meta property="og:site_name" content="rango&#39;s note">
+<meta property="og:description" content="此人月入万刀，分享了一些思路。不过老7已经要退出圈子了，趁他还没有删完他的贴我赶快备份了一下他的帖子 隔壁论坛会员老7分享自己个人网站利用python配合C++全自动采集内容站群算法做adsense月入万刀的实操方案。虽然不是教程的具体操作方式，但是他通过回答大家的问题让有基础的用户得到一些思路，受到一定启发，原帖已经被设置为最高权限，无法浏览了。 此算法为python配合C++，改进和训练人工智">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-06-17T12:25:34.673Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="老7临走前的笔记">
+<meta name="twitter:description" content="此人月入万刀，分享了一些思路。不过老7已经要退出圈子了，趁他还没有删完他的贴我赶快备份了一下他的帖子 隔壁论坛会员老7分享自己个人网站利用python配合C++全自动采集内容站群算法做adsense月入万刀的实操方案。虽然不是教程的具体操作方式，但是他通过回答大家的问题让有基础的用户得到一些思路，受到一定启发，原帖已经被设置为最高权限，无法浏览了。 此算法为python配合C++，改进和训练人工智">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="rango&#39;s note" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+    
+        <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">rango&#39;s note</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">首页</a>
+                
+                    <a class="main-nav-link" href="/archives">归档</a>
+                
+                    <a class="main-nav-link" href="/categories">分类</a>
+                
+                    <a class="main-nav-link" href="/tags">标签</a>
+                
+                    <a class="main-nav-link" href="/about">关于</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">首页</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">归档</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">分类</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">标签</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">关于</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>categories</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            coding
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            TIPS
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/06/17/coding/TIPS/after_linux_install/"></a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/chromium_socks/">chromium_socks</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/fix_virtualbox_Kernel_Driver_Not_Installed/">fix_virtualbox_Kernel_Driver_Not_Installed</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/arch安装mysql/">arch安装mysql</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/linux_声音输出_HDMI/">linux_声音输出_HDMI</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/markdown插入图片/">markdown插入图片</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/pycharm_注册/">pycharm_注册</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/pacman_常见命令/">pacman_常见命令</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/shadowsocks_python/">shadowsocks_python</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/python_virtualenv/">python_virtualenv</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/virtualbox中linux与宿主windwos共享文件夹设置/">virtualbox中linux与宿主windwos共享文件夹设置</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/openssl_shadowsocks_undefined_symbol/">openssl_shadowsocks_undefined_symbol</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/异步同步/">异步同步</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/shandowsocks_一键脚本/">shandowsocks_一键脚本</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/推荐soft_ware/">推荐soft_ware</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/生成源文件/">生成源文件</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/终端代理/">终端代理</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/豆瓣源/">豆瓣源</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/软件开发流程/">软件开发流程</a></li>  <li class="file"><a href="/2018/01/01/coding/TIPS/解决openss_shadowsocks/">解决openss_shadowsocks</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            django
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/coding/django/http请求的过程/">http请求的过程</a></li>  <li class="file"><a href="/2018/01/01/coding/django/some_command/">some_command</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            python
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/coding/python/优达城_deep_learning大纲/">优达城_deep_learning大纲</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2018/01/01/coding/3k-5k/">3k-5k</a></li>  <li class="file"><a href="/2018/01/01/coding/markdown语法/">markdown语法</a></li>  <li class="file"><a href="/2018/01/01/coding/自学编程_simon/">自学编程_simon</a></li>  <li class="file"><a href="/2018/01/01/coding/学编程的四个阶段/">学编程的四个阶段</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            diary
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/diary/4/">april</a></li>  <li class="file"><a href="/2018/01/01/diary/march_18/">march_18</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            hack
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/hack/deep/">deep</a></li>  <li class="file"><a href="/2018/01/01/hack/安心的写一篇CC整理帖_免得套路来套路去_想学的也就是真踏实学的/">安心的写一篇CC整理帖_免得套路来套路去_想学的也就是真踏实学的</a></li>  <li class="file active"><a href="/2018/01/01/hack/老7临走前的笔记/">老7临走前的笔记</a></li>  <li class="file"><a href="/2018/01/01/hack/黑客团队的十大职务/">黑客团队的十大职务</a></li>  <li class="file"><a href="/2018/01/01/hack/躲避摄像头/">躲避摄像头</a></li>  <li class="file"><a href="/2018/01/01/hack/hack_road_map_知乎/">hack_road_map_知乎</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            make_money方法
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/make_money方法/make_money/">make-money</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/wordpress主题_老农/">WordPress收费主题_老农破解下载</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/2018红利/">2018红利</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/匿名的知乎/">匿名的知乎</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/利用google分析赚钱/">利用google分析赚钱</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/垃圾站/">垃圾站</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/漏洞_老农民/">漏洞_老农民</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/知乎/">知乎</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/规划/">规划</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/灰产分析.md/">灰产分析.md</a></li>  <li class="file"><a href="/2018/01/01/make_money方法/黑帽SEO技术总结/">黑帽seo技术总结</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            plan
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            plan_of_git_pages
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/plan/plan_of_git_pages/plan/">plan</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            plan_of_software
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/plan/plan_of_software/editor/">editor</a></li>  <li class="file"><a href="/2018/01/01/plan/plan_of_software/人工智能的可行性/">人工智能的可行性</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            plan_of_website
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/plan/plan_of_website/video_site/">video_site</a></li>  <li class="file"><a href="/2018/01/01/plan/plan_of_website/web_site/">web_site</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2018/01/01/plan/software/">software</a></li>  <li class="file"><a href="/2018/01/01/plan/职业的建议/">职业的建议</a></li>  <li class="file"><a href="/2018/01/01/plan/旅行计划/">旅行计划</a></li>  <li class="file"><a href="/2018/01/01/plan/要玩的game/">要玩的game</a></li>  <li class="file"><a href="/2018/01/01/plan/赚钱计划/">赚钱计划</a></li>  <li class="file"><a href="/2018/01/01/plan/部落格构思/">部落格构思</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            杂谈
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            question_about_her
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/杂谈/question_about_her/gfw_如果你生活在围墙里/">gfw_如果你生活在围墙里</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            人际关系
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/杂谈/人际关系/不要去问一个女孩子/">不要去问一个女孩子</a></li>  <li class="file"><a href="/2018/01/01/杂谈/人际关系/交际篇/">交际篇</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            回忆录
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            第一次
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第一次/学校篇/">学校篇</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第一次/找工作篇/">找工作篇</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第一次/回去篇/">回去篇</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第一次/迷茫篇/">迷茫篇</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第一次/工作篇/">工作篇</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            第二次
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第二次/工作篇/">工作篇</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第二次/二次上海之行/">二次上海之行</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第二次/开学前篇/">开学前篇</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第二次/开学时篇/">开学时篇</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第二次/意外的巧合/">意外的巧合</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第二次/沉迷——觉醒篇/">沉迷——觉醒篇</a></li>  <li class="file"><a href="/2018/01/01/杂谈/回忆录/第二次/贪婪/">贪婪</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            待定文章
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/杂谈/待定文章/待定文章/">待定文章</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            心态
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/杂谈/心态/Unbroken/">Unbroken</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            教育
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/杂谈/教育/中村/">中村</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            诗
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/01/杂谈/诗/空无一人的小镇/">空无一人的小镇</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2018/01/01/杂谈/no_sadly_story/">no_sadly_story</a></li>  <li class="file"><a href="/2018/01/01/杂谈/her/">her</a></li>  <li class="file"><a href="/2018/01/01/杂谈/一切都是必然的/">一切都是必然的</a></li>  <li class="file"><a href="/2018/01/01/杂谈/不可替代的东西/">不可替代的东西</a></li>  <li class="file"><a href="/2018/01/01/杂谈/为什么会产生爱/">为什么会产生爱</a></li>  <li class="file"><a href="/2018/01/01/杂谈/为什么的意义/">为什么的意义</a></li>  <li class="file"><a href="/2018/01/01/杂谈/书籍/">书籍</a></li>  <li class="file"><a href="/2018/01/01/杂谈/什么是战友_朋友/">什么是战友_朋友</a></li>  <li class="file"><a href="/2018/01/01/杂谈/何为孤单/">何为孤单</a></li>  <li class="file"><a href="/2018/01/01/杂谈/关于最低生活保障政策/">关于最低生活保障政策</a></li>  <li class="file"><a href="/2018/01/01/杂谈/关于社交软件使用者的心理分析/">关于社交软件使用者的心理分析</a></li>  <li class="file"><a href="/2018/01/01/杂谈/动心的几句话_番剧/">动心的几句话_番剧</a></li>  <li class="file"><a href="/2018/01/01/杂谈/同情/">同情</a></li>  <li class="file"><a href="/2018/01/01/杂谈/学习吉他_类比/">学习吉他_类比</a></li>  <li class="file"><a href="/2018/01/01/杂谈/思想/">思想</a></li>  <li class="file"><a href="/2018/01/01/杂谈/我是谁/">我是谁</a></li>  <li class="file"><a href="/2018/01/01/杂谈/我爱你背后的黑暗/">我爱你背后的黑暗</a></li>  <li class="file"><a href="/2018/01/01/杂谈/爱_嫉妒/">爱_嫉妒</a></li>  <li class="file"><a href="/2018/01/01/杂谈/爱情_shit/">爱情_shit</a></li>  <li class="file"><a href="/2018/01/01/杂谈/番剧台词/">番剧台词</a></li>  <li class="file"><a href="/2018/01/01/杂谈/看似近但遥远的东西/">看似近但遥远的东西</a></li>  <li class="file"><a href="/2018/01/01/杂谈/改变感官的习惯/">改变感官的习惯</a></li>  <li class="file"><a href="/2018/01/01/杂谈/乔布斯/">乔布斯</a></li>  <li class="file"><a href="/2018/01/01/杂谈/卡辛斯基的警告/">卡辛斯基的警告</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2018/01/01/index/">index</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-hack/老7临走前的笔记" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/hack/">hack</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2018/01/01/hack/老7临走前的笔记/">
+            <time datetime="2018-01-01T04:12:12.000Z" itemprop="datePublished">2018-01-01</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/junkrango/junkrango.github.io/raw/msater/source/_posts/hack/老7临走前的笔记.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/junkrango/junkrango.github.io/edit/msater/source/_posts/hack/老7临走前的笔记.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/junkrango/junkrango.github.io/commits/msater/source/_posts/hack/老7临走前的笔记.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            老7临走前的笔记
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <p>此人月入万刀，分享了一些思路。不过老7已经要退出圈子了，趁他还没有删完他的贴我赶快备份了一下他的帖子</p>
+<p>隔壁论坛会员老7分享自己个人网站利用python配合C++全自动采集内容站群算法做adsense月入万刀的实操方案。虽然不是教程的具体操作方式，但是他通过回答大家的问题让有基础的用户得到一些思路，受到一定启发，原帖已经被设置为最高权限，无法浏览了。</p>
+<p>此算法为python配合C++，改进和训练人工智能历经两个月的时间，收入增加效果明显，当然最主要的还是新算法起作用了。7月份9000多美元，8月份稍微增加一点，本月13000美元。这只是他网站收益的一部分，google adsense收入则更超出这个。另外需要分享的是， paypal对于年收入超过50000美元的，受外汇管制的营销，用户可以直接打上海办事处电话，客服会告诉你一些提高限额的渠道。</p>
+<p>思路跟某些人说的全自动采集内容做站群，利用自己算法迷惑google思路比较接近，但具体细节摸索很多才能有点成效，主要靠大数据和机器深度学习完成。而且工作并没有很多人想象的那般轻松，采集会根据源做相应的调整。另外目前针对百度的效果还是有限，很多关键词搜索结果，百度中都不是匹配，不是百度不懂而是百度自私。Google则把最正确的用户需要的结果第一时间呈现给用户。</p>
+<p>他也是个人单干，以前5人小团队因为长大后各自结婚生子而各奔东西，自己也是利用github上开源的人工智能加深度学习组件了机器群，其实也就是几台强悍点的服务器。按照AlphaGo的思路，让其在网络里自行学习和运算，在某些（你懂得）搜索引擎和能获得优势的网站上给出最佳途径和对比方式。例如站群这一面，自行列出单价和浏览访问量，再自行搜集数据建立相应的网站（这个用python实现）。这样的好处就是能不会被Google或者其他反作弊系统识别，可以长期稳定来做。</p>
+<p>关于有些人对全自动采集站可读性的质疑，他试图清晰的解释下其中一种最见效的方式。“比如说一段时期，“风油精”这个关键词很火——全智能大数据分析的，你也可以建立这样的一个大数据分析链，也可以使用某些机构的成果,github上有，我就是直接提取结果的。之后利用这个关键词，迅速的创建与之相关的域名和网站（这一部是程序员都能实现，我用的是python,大赞python），整个流程就是以接近病毒式扫描和创建关键词，以web形式呈现，引来的流量是非常可怕的，所以我有很多小vps负责负载。这就是google的一方面，还有某些细节属于个人核心技术了，等你到了那一步其实自然就能懂了。”</p>
+<p>“再透露一点，关键问题点到为止哈。多想想自然就明白，机会是给有准备的人。比如“风油精”这个关键词，不管是围绕这个词的网站也好，论坛版块也好，单页文章也罢，所有信息数据均智能采集网络（有开源的程序判断文字的流畅性和可读性的，这点不用担心），接下来把采集来的数据如何排列起来才是亮点，就模拟那种回帖方式的啊，紧凑的那种，明白了吗？用户以为还真是人在回帖呢，比如这个风油精的使用感受之类的，PV会爆，我的小vps承受不了怎么办呢？github pages啊，无限的啊，小vps+github不用担心任何问题。关于检测那个语句的流畅和可读性，我的程序里里是去掉了的，太影响速度和效率了，以为要去其他平台逐句逐句的对比。索性去掉，反正收集的信息基本都是流畅完整的，到时候按照一定的方式（算法）打乱拼接就可以了，力争做到网络重复率极低便可。”</p>
+<p>关于adsense垃圾采集站被K账号的问题，老7则分享说：“首先，不说站垃圾不垃圾，任何公司包括google都不会去定义一个网站是否垃圾或者歧视采集来的文章，更不会认为低人一等。例如很多人复制shadowsocks的文章，<em>现在百度屏蔽了shadowsocks 关键词</em>，这个文章的某些技术和知识就是适合自己本人，你就让其在你的小站上存在，天经地义。搜索引擎注重的是转换率和价值（复制的文章也是有价值的，高低而已，原创的价值最高）。你被k是否有某些不正当的流量，不要去购买那些所谓的几万十几万的ip流量，我可以告诉你，还不如不买（触犯某些人的利润，抱歉）原理和原因就不解释了，码字麻烦，而且得罪人。其次就是莫名其妙的点击和跳转后停留的时间等等等等因数。我的g帐号很多，近两年都没有K过。可以借鉴，最后祝网赚愉快。”</p>
+<p>同时也声明，本人绝非炫耀显摆，我能力和精力有限，不想把自己推入漫天口水的是非之地，如果你怀着质疑和寻找任何瑕疵的目的点开这个帖子，再看下去就显得很不明智了。首先，我是个非常普通的小程序员，能使用QT+C++ 和python+pycharm平台。跟CSDN里面那些真正的高手比起来，他们几乎完全可以碾压我。若想致力与网络上生存，学一门语言真的非常必要，现在python几乎能完成任何你能想象的网络工作，从那么多语言走过来，力顶python，它简单，语法清晰，应该在语言难度系数里最低了，功能却超乎寻常的强大，可以说能静心下来看书的人一定能学会。也可以说这个时代的我们能接触到python是种莫大的荣幸，有朋友私信问我哪本书适合？在此统一回答，买第3版本，越厚越好，因为详细和例子多。还有就是算法，我很惊讶有些朋友说网赚还需要算法？我不敢正面回答，保持缄默，不想意见相左，因为大家都知道在论坛里很容易把这样的冲突上升到问候对方先人的惨烈程度。其实算法在我们身边无处不在，就连最基本的一个最新帖子的发出，都使用到了算法来排序。能解决任何问题的方法都是算法，搜索剪枝，A*寻径，博弈树和遗传算法等等最基本的算法就是构**</p>
+<p>算法的定义就是解决问题的方式和途径，方式和途径不一样，效率和效果也不一样，程序=代码+算法。算法才是程序的灵魂。github上集合了太多人类的智慧和思路，有时间可以多看看。做网赚，再怎么说也要会门语言，讲究效率的时代，哪能拼人力。祝网赚愉快</p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/2018/01/01/hack/安心的写一篇CC整理帖_免得套路来套路去_想学的也就是真踏实学的/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    安心的写一篇CC整理帖_免得套路来套路去_想学的也就是真踏实学的
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2018/01/01/hack/黑客团队的十大职务/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">黑客团队的十大职务</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            rango &copy; 2018 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a>
+            
+                <br>
+                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
