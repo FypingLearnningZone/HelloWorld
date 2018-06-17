@@ -230,29 +230,6 @@
   </entry>
   
   <entry>
-    <title>WordPress收费主题_老农破解下载</title>
-    <link href="http://blog.scavenger.top/2018/01/01/make_money%E6%96%B9%E6%B3%95/wordpress%E4%B8%BB%E9%A2%98_%E8%80%81%E5%86%9C/"/>
-    <id>http://blog.scavenger.top/2018/01/01/make_money方法/wordpress主题_老农/</id>
-    <published>2018-01-01T04:12:12.000Z</published>
-    <updated>2018-06-17T12:25:34.776Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="FOFA小技能-看我山里老农如何薅WordPress收费主题"><a href="#FOFA小技能-看我山里老农如何薅WordPress收费主题" class="headerlink" title="FOFA小技能 看我山里老农如何薅WordPress收费主题"></a>FOFA小技能 看我山里老农如何薅WordPress收费主题</h1><p><a href="https://www.zhihu.com/people/feng-yi-fan-28" target="_blank" rel="noopener"><img src="https://pic3.zhimg.com/fe9d83138_xs.jpg" alt="" title="冯意番"></a></p><p><a href="https://www.zhihu.com/people/feng-yi-fan-28" target="_blank" rel="noopener">冯意番</a></p><p>已关注</p><p>5 人赞了该文章</p><h1 id="悲痛一下"><a href="#悲痛一下" class="headerlink" title="悲痛一下"></a>悲痛一下</h1><p>作为出身贫寒的山里老农民，昨晚被老外黑产团队薅了几千刀，哎。。</p><p><img src="wordpress主题——老农.assets/v2-4a62c4b11f8f6d452db613f97565e308_hd.jpg" alt=""></p><p>一夜久久不能入睡。恰巧王者荣耀昨晚更新，连人机发泄的机会都木有！</p><p>人在江湖飘，哪有不挨刀。好在我淳朴，不会太偏激，不然肯定跟股票散户一起上楼顶排队等着跳了！</p><p>所谓事物都有两面性，这也引发了我一个想法，打算介绍一下这个国外黑产团队的操作手法。</p><p>当然，这个不是今天的主题，今天主要介绍Fofa使用的一个小技能。</p><h1 id="Fofa是啥"><a href="#Fofa是啥" class="headerlink" title="Fofa是啥"></a>Fofa是啥</h1><p>FOFA是白帽汇推出的一款网络空间资产搜索引擎。</p><p>它能够帮助用户迅速进行网络资产匹配、加快后续工作进程。</p><p>例如进行漏洞影响范围分析、应用分布统计、应用流行度排名统计等。</p><h1 id="在我心里的Fofa"><a href="#在我心里的Fofa" class="headerlink" title="在我心里的Fofa"></a>在我心里的Fofa</h1><p>大道理我看不懂，什么网络资产，资产匹配，我一个乡下人，怎么看的懂。</p><p>简单说，Fofa就是一个大数据平台，通过一个网站，或者一个IP，不停的往外爬，记录网站的各种信息，比如title,keyword,description，body，当然也把服务器的端口也扫一个够，然后在记录到数据库里，按用户的搜素进行查询输出。</p><p>这需要非常庞大的服务器群体去抓取，对于小公司或者个人，工作量很庞大。</p><p>所以，我这里充值了VIP，这样，我就可以用他们的数据，来进行对我竞争对手的一些查询等等。</p><p><img src="wordpress主题——老农.assets/v2-a2a361a4b89dcbc1c26c1d9e66a5f81a_hd.jpg" alt=""></p><p>铛铛铛铛。会员！！！</p><p><img src="wordpress主题——老农.assets/v2-9a95d4afc1a6060cfe5895ea26d45809_hd.jpg" alt=""></p><p>感觉我上天了有木有。什么QQ红钻黄钻蓝钻绿钻裸钻，在我眼里都是蛋啊。你们有Fofa会员吗？？？</p><h1 id="看我小技能，薅社会羊毛"><a href="#看我小技能，薅社会羊毛" class="headerlink" title="看我小技能，薅社会羊毛"></a>看我小技能，薅社会羊毛</h1><p><img src="wordpress主题——老农.assets/v2-3a34e93da085abd68a114e26f13503b7_hd.jpg" alt=""></p><p>这是一个收费的WORDPRESS主题。</p><p>嗯 国产的，还不错。。</p><p>但是收费啊，咱没钱。</p><p>于是我就想到了Fofa，大数据平台。</p><p><img src="wordpress主题——老农.assets/v2-51754ccca85c902695c336f303e97e17_hd.jpg" alt=""></p><h1 id="先普及FOFA的搜素姿势"><a href="#先普及FOFA的搜素姿势" class="headerlink" title="先普及FOFA的搜素姿势"></a>先普及FOFA的搜素姿势</h1><p><img src="wordpress主题——老农.assets/v2-c4498eaa24f314269e2abb0fdaac5bdb_hd.jpg" alt=""></p><p>这里我们只用到一个</p><p>body=”abc” 从html正文中搜索abc。</p><p>我们查看下原来主题的DEMO网站源码：</p><p><img src="wordpress主题——老农.assets/v2-e4e353e4760bd199840b21bb280972c2_hd.jpg" alt=""></p><p>可以看出，主题的关键搜素词</p><p>/wp-content/themes/mimelove/</p><h1 id="直接FOFA搜索"><a href="#直接FOFA搜索" class="headerlink" title="直接FOFA搜索"></a>直接FOFA搜索</h1><p><img src="wordpress主题——老农.assets/v2-a334e293076642e4752b736bbc846e67_hd.jpg" alt=""></p><p>我们可以看到，FOFA列出了16条这样的网站，我们可以采集下来，当然，不会写脚本的，可以手动复制出来，或者自己想起他的办法。</p><p>这里我用一款软件直接弄（不说啦，广告只打一个就好）</p><p><img src="wordpress主题——老农.assets/v2-73d03496fdcd54f0f20736786d1616e0_hd.jpg" alt=""></p><p>然后我们导出到一个TXT里，再批量针对敏感性的文件进行扫描</p><h1 id="什么是敏感性文件？"><a href="#什么是敏感性文件？" class="headerlink" title="什么是敏感性文件？"></a>什么是敏感性文件？</h1><p>1 总所周知，wordpress上传主题，或者插件的时候是zip格式，早期通过后台上传，会到wp-content/uploads这个文件夹里面</p><p>2 站长的习惯zip上传到对应的文件夹，再解压。</p><p>3 默认打包的压缩包</p><p>所以，这里我们直接编辑软件的扫描配置</p><p><img src="wordpress主题——老农.assets/v2-21a0828b46d7721e37e7f602a22ad448_hd.jpg" alt=""></p><h1 id="看下扫描结果"><a href="#看下扫描结果" class="headerlink" title="看下扫描结果"></a>看下扫描结果</h1><p><img src="wordpress主题——老农.assets/v2-21c63d56685ebe22574bf9358a9ea617_hd.jpg" alt=""></p><p>我下载验证了一下</p><p><img src="wordpress主题——老农.assets/v2-2efc1065fe63d3f766831ab9f0eb4e57_hd.jpg" alt=""></p><p>收费的主题就这样被我轻而易举的薅到了？</p><p>没错！！！</p><h1 id="这是世界的一个大难题"><a href="#这是世界的一个大难题" class="headerlink" title="这是世界的一个大难题"></a>这是世界的一个大难题</h1><p>很多国外的收费主题，也基本可以靠着fofa进行大数据找出网站后，再进行路径配置匹对扫描获得。</p><p>这个是全世界站长的一个安全意识，短期内是很难解决的。</p><p>在这里，也建议主题的作者留个心吧，卖主题的时候，顺便对买家发一份主题如何保护的操作说明。</p><h1 id="伸手必备抓！善意的提醒！"><a href="#伸手必备抓！善意的提醒！" class="headerlink" title="伸手必备抓！善意的提醒！"></a>伸手必备抓！善意的提醒！</h1><p>遵纪守法，涉及到黑产的，灰产的赚钱项目，请最好远离，很多人在知乎上，微信公众号后台留言要找我合作，这样的留言我基本不回复，来自山里的老农民，是不会做非法的事情。也希望大家能够注意，不要做犯法的事情。</p><p><img src="wordpress主题——老农.assets/v2-237f730609e566dbe1db5dd7a11084d0_hd.jpg" alt=""></p><h1 id="分享到这里"><a href="#分享到这里" class="headerlink" title="分享到这里"></a>分享到这里</h1><p>本期与互联网赚钱没啥关系，纯粹投个懒，介绍一下一个我比较喜欢的大数据平台的使用小技巧。</p><p><a href="http://zhuanlan.zhihu.com/p/26588343" target="_blank" rel="noopener">发布于 2017-04-26</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;FOFA小技能-看我山里老农如何薅WordPress收费主题&quot;&gt;&lt;a href=&quot;#FOFA小技能-看我山里老农如何薅WordPress收费主题&quot; class=&quot;headerlink&quot; title=&quot;FOFA小技能 看我山里老农如何薅WordPress收费主题&quot;&gt;
-      
-    
-    </summary>
-    
-      <category term="make_money方法" scheme="http://blog.scavenger.top/categories/make-money%E6%96%B9%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>2018红利</title>
     <link href="http://blog.scavenger.top/2018/01/01/make_money%E6%96%B9%E6%B3%95/2018%E7%BA%A2%E5%88%A9/"/>
     <id>http://blog.scavenger.top/2018/01/01/make_money方法/2018红利/</id>
@@ -276,19 +253,19 @@
   </entry>
   
   <entry>
-    <title>匿名的知乎</title>
-    <link href="http://blog.scavenger.top/2018/01/01/make_money%E6%96%B9%E6%B3%95/%E5%8C%BF%E5%90%8D%E7%9A%84%E7%9F%A5%E4%B9%8E/"/>
-    <id>http://blog.scavenger.top/2018/01/01/make_money方法/匿名的知乎/</id>
+    <title>WordPress收费主题_老农破解下载</title>
+    <link href="http://blog.scavenger.top/2018/01/01/make_money%E6%96%B9%E6%B3%95/wordpress%E4%B8%BB%E9%A2%98_%E8%80%81%E5%86%9C/"/>
+    <id>http://blog.scavenger.top/2018/01/01/make_money方法/wordpress主题_老农/</id>
     <published>2018-01-01T04:12:12.000Z</published>
     <updated>2018-06-17T12:25:34.776Z</updated>
     
-    <content type="html"><![CDATA[<p>链接：<a href="https://www.zhihu.com/question/30758136/answer/263013519" target="_blank" rel="noopener">https://www.zhihu.com/question/30758136/answer/263013519</a></p><p>是人都知道钱难赚，屎难吃，看到这里诸多炫耀型水帖，不请自来的感慨几句。</p><p>赚钱如此容易？这本身就是个伪命题。在社会上打拼也有15年，或许是我见闻有限，林林总总，五颜六色的人也结识过不少，无论是个人经历还是遇到过的人，从挣扎在生存边缘的穷苦人群到亿万身家挥金如土的大富豪，还没有遇到一个觉得“赚钱如此容易”的。</p><p>就赚钱本身来说，是要赚小钱，还是赚大钱？</p><p>赚大钱的方法，众所周知，几乎都写在“刑法”里。大部分人估计又不看重小钱，试问发现地上有一分钱，一角钱，能有几个人舍去所谓的面子去捡？</p><p>一命二运三风水，四积阴德五读书，最多教你磨练智商，你没有富二代的命，没有中头彩的运，没有马云马化腾这类人的眼光，但你起码还可以广积阴德，多读书投资自己，想赚钱，不要当块软趴趴的肉，也别做块硬邦邦的骨头，需要有韧带般的精神，隐忍和坚毅，长此以往，滴水石穿，就能赚到一些钱。当然同时你也会发现赚钱最多是不太难，但绝非“容易”二字。</p><p>能不能赚到钱，终归是一个考验情商的问题，需要智商到情商的巧妙转换。</p><p>佛陀曾被人问起如何能赚钱，佛陀的回答就是要学会布施。正所谓小富靠勤奋，中富靠机遇，大富靠眼光。世人却大多愿意一蹴而就，没有勤奋，哪来的机遇，机遇抓住的次数少了，又何来眼光？</p><p>谈到“容易”的大多答主，无外乎博人眼球，或另有索图。不少甚至是在炫耀如何“骗”钱骗的“如此容易”，和良心赚钱是两码事。</p><p>歪门邪道，千万不要沾，折损福报不说，还会严重削减人的气质和气场，人没有了正气，财神也不会眷顾你，就算勉强赚到点，也会很快失去。</p><p>真正赚到一些钱的人，绝不是每天早上必须端着一杯星巴克，在电梯里侃侃而谈什么”赚有钱人的钱“”赚女人和孩子的钱“”目标定位“”业态“””理念“等等诸如此类的狗屁辞藻的人。这些人的局限使得他们只懂得意淫，根本不明白商场竞争的残酷性，复杂性和多变性。</p><p>没有花里胡哨的配图，没有慷慨激昂的说辞，奉劝提问者还是能抛掉幻想，脚踏实地的开创或打拼出自己的一番天地。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="FOFA小技能-看我山里老农如何薅WordPress收费主题"><a href="#FOFA小技能-看我山里老农如何薅WordPress收费主题" class="headerlink" title="FOFA小技能 看我山里老农如何薅WordPress收费主题"></a>FOFA小技能 看我山里老农如何薅WordPress收费主题</h1><p><a href="https://www.zhihu.com/people/feng-yi-fan-28" target="_blank" rel="noopener"><img src="https://pic3.zhimg.com/fe9d83138_xs.jpg" alt="" title="冯意番"></a></p><p><a href="https://www.zhihu.com/people/feng-yi-fan-28" target="_blank" rel="noopener">冯意番</a></p><p>已关注</p><p>5 人赞了该文章</p><h1 id="悲痛一下"><a href="#悲痛一下" class="headerlink" title="悲痛一下"></a>悲痛一下</h1><p>作为出身贫寒的山里老农民，昨晚被老外黑产团队薅了几千刀，哎。。</p><p><img src="wordpress主题——老农.assets/v2-4a62c4b11f8f6d452db613f97565e308_hd.jpg" alt=""></p><p>一夜久久不能入睡。恰巧王者荣耀昨晚更新，连人机发泄的机会都木有！</p><p>人在江湖飘，哪有不挨刀。好在我淳朴，不会太偏激，不然肯定跟股票散户一起上楼顶排队等着跳了！</p><p>所谓事物都有两面性，这也引发了我一个想法，打算介绍一下这个国外黑产团队的操作手法。</p><p>当然，这个不是今天的主题，今天主要介绍Fofa使用的一个小技能。</p><h1 id="Fofa是啥"><a href="#Fofa是啥" class="headerlink" title="Fofa是啥"></a>Fofa是啥</h1><p>FOFA是白帽汇推出的一款网络空间资产搜索引擎。</p><p>它能够帮助用户迅速进行网络资产匹配、加快后续工作进程。</p><p>例如进行漏洞影响范围分析、应用分布统计、应用流行度排名统计等。</p><h1 id="在我心里的Fofa"><a href="#在我心里的Fofa" class="headerlink" title="在我心里的Fofa"></a>在我心里的Fofa</h1><p>大道理我看不懂，什么网络资产，资产匹配，我一个乡下人，怎么看的懂。</p><p>简单说，Fofa就是一个大数据平台，通过一个网站，或者一个IP，不停的往外爬，记录网站的各种信息，比如title,keyword,description，body，当然也把服务器的端口也扫一个够，然后在记录到数据库里，按用户的搜素进行查询输出。</p><p>这需要非常庞大的服务器群体去抓取，对于小公司或者个人，工作量很庞大。</p><p>所以，我这里充值了VIP，这样，我就可以用他们的数据，来进行对我竞争对手的一些查询等等。</p><p><img src="wordpress主题——老农.assets/v2-a2a361a4b89dcbc1c26c1d9e66a5f81a_hd.jpg" alt=""></p><p>铛铛铛铛。会员！！！</p><p><img src="wordpress主题——老农.assets/v2-9a95d4afc1a6060cfe5895ea26d45809_hd.jpg" alt=""></p><p>感觉我上天了有木有。什么QQ红钻黄钻蓝钻绿钻裸钻，在我眼里都是蛋啊。你们有Fofa会员吗？？？</p><h1 id="看我小技能，薅社会羊毛"><a href="#看我小技能，薅社会羊毛" class="headerlink" title="看我小技能，薅社会羊毛"></a>看我小技能，薅社会羊毛</h1><p><img src="wordpress主题——老农.assets/v2-3a34e93da085abd68a114e26f13503b7_hd.jpg" alt=""></p><p>这是一个收费的WORDPRESS主题。</p><p>嗯 国产的，还不错。。</p><p>但是收费啊，咱没钱。</p><p>于是我就想到了Fofa，大数据平台。</p><p><img src="wordpress主题——老农.assets/v2-51754ccca85c902695c336f303e97e17_hd.jpg" alt=""></p><h1 id="先普及FOFA的搜素姿势"><a href="#先普及FOFA的搜素姿势" class="headerlink" title="先普及FOFA的搜素姿势"></a>先普及FOFA的搜素姿势</h1><p><img src="wordpress主题——老农.assets/v2-c4498eaa24f314269e2abb0fdaac5bdb_hd.jpg" alt=""></p><p>这里我们只用到一个</p><p>body=”abc” 从html正文中搜索abc。</p><p>我们查看下原来主题的DEMO网站源码：</p><p><img src="wordpress主题——老农.assets/v2-e4e353e4760bd199840b21bb280972c2_hd.jpg" alt=""></p><p>可以看出，主题的关键搜素词</p><p>/wp-content/themes/mimelove/</p><h1 id="直接FOFA搜索"><a href="#直接FOFA搜索" class="headerlink" title="直接FOFA搜索"></a>直接FOFA搜索</h1><p><img src="wordpress主题——老农.assets/v2-a334e293076642e4752b736bbc846e67_hd.jpg" alt=""></p><p>我们可以看到，FOFA列出了16条这样的网站，我们可以采集下来，当然，不会写脚本的，可以手动复制出来，或者自己想起他的办法。</p><p>这里我用一款软件直接弄（不说啦，广告只打一个就好）</p><p><img src="wordpress主题——老农.assets/v2-73d03496fdcd54f0f20736786d1616e0_hd.jpg" alt=""></p><p>然后我们导出到一个TXT里，再批量针对敏感性的文件进行扫描</p><h1 id="什么是敏感性文件？"><a href="#什么是敏感性文件？" class="headerlink" title="什么是敏感性文件？"></a>什么是敏感性文件？</h1><p>1 总所周知，wordpress上传主题，或者插件的时候是zip格式，早期通过后台上传，会到wp-content/uploads这个文件夹里面</p><p>2 站长的习惯zip上传到对应的文件夹，再解压。</p><p>3 默认打包的压缩包</p><p>所以，这里我们直接编辑软件的扫描配置</p><p><img src="wordpress主题——老农.assets/v2-21a0828b46d7721e37e7f602a22ad448_hd.jpg" alt=""></p><h1 id="看下扫描结果"><a href="#看下扫描结果" class="headerlink" title="看下扫描结果"></a>看下扫描结果</h1><p><img src="wordpress主题——老农.assets/v2-21c63d56685ebe22574bf9358a9ea617_hd.jpg" alt=""></p><p>我下载验证了一下</p><p><img src="wordpress主题——老农.assets/v2-2efc1065fe63d3f766831ab9f0eb4e57_hd.jpg" alt=""></p><p>收费的主题就这样被我轻而易举的薅到了？</p><p>没错！！！</p><h1 id="这是世界的一个大难题"><a href="#这是世界的一个大难题" class="headerlink" title="这是世界的一个大难题"></a>这是世界的一个大难题</h1><p>很多国外的收费主题，也基本可以靠着fofa进行大数据找出网站后，再进行路径配置匹对扫描获得。</p><p>这个是全世界站长的一个安全意识，短期内是很难解决的。</p><p>在这里，也建议主题的作者留个心吧，卖主题的时候，顺便对买家发一份主题如何保护的操作说明。</p><h1 id="伸手必备抓！善意的提醒！"><a href="#伸手必备抓！善意的提醒！" class="headerlink" title="伸手必备抓！善意的提醒！"></a>伸手必备抓！善意的提醒！</h1><p>遵纪守法，涉及到黑产的，灰产的赚钱项目，请最好远离，很多人在知乎上，微信公众号后台留言要找我合作，这样的留言我基本不回复，来自山里的老农民，是不会做非法的事情。也希望大家能够注意，不要做犯法的事情。</p><p><img src="wordpress主题——老农.assets/v2-237f730609e566dbe1db5dd7a11084d0_hd.jpg" alt=""></p><h1 id="分享到这里"><a href="#分享到这里" class="headerlink" title="分享到这里"></a>分享到这里</h1><p>本期与互联网赚钱没啥关系，纯粹投个懒，介绍一下一个我比较喜欢的大数据平台的使用小技巧。</p><p><a href="http://zhuanlan.zhihu.com/p/26588343" target="_blank" rel="noopener">发布于 2017-04-26</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;链接：&lt;a href=&quot;https://www.zhihu.com/question/30758136/answer/263013519&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.zhihu.com/question/30758
+        &lt;h1 id=&quot;FOFA小技能-看我山里老农如何薅WordPress收费主题&quot;&gt;&lt;a href=&quot;#FOFA小技能-看我山里老农如何薅WordPress收费主题&quot; class=&quot;headerlink&quot; title=&quot;FOFA小技能 看我山里老农如何薅WordPress收费主题&quot;&gt;
       
     
     </summary>
@@ -312,6 +289,29 @@
       
       
         &lt;p&gt;&lt;a href=&quot;https://foofish.net/make-money-by-google.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://foofish.net/make-money-by-google.html&lt;/a&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="make_money方法" scheme="http://blog.scavenger.top/categories/make-money%E6%96%B9%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>匿名的知乎</title>
+    <link href="http://blog.scavenger.top/2018/01/01/make_money%E6%96%B9%E6%B3%95/%E5%8C%BF%E5%90%8D%E7%9A%84%E7%9F%A5%E4%B9%8E/"/>
+    <id>http://blog.scavenger.top/2018/01/01/make_money方法/匿名的知乎/</id>
+    <published>2018-01-01T04:12:12.000Z</published>
+    <updated>2018-06-17T12:25:34.776Z</updated>
+    
+    <content type="html"><![CDATA[<p>链接：<a href="https://www.zhihu.com/question/30758136/answer/263013519" target="_blank" rel="noopener">https://www.zhihu.com/question/30758136/answer/263013519</a></p><p>是人都知道钱难赚，屎难吃，看到这里诸多炫耀型水帖，不请自来的感慨几句。</p><p>赚钱如此容易？这本身就是个伪命题。在社会上打拼也有15年，或许是我见闻有限，林林总总，五颜六色的人也结识过不少，无论是个人经历还是遇到过的人，从挣扎在生存边缘的穷苦人群到亿万身家挥金如土的大富豪，还没有遇到一个觉得“赚钱如此容易”的。</p><p>就赚钱本身来说，是要赚小钱，还是赚大钱？</p><p>赚大钱的方法，众所周知，几乎都写在“刑法”里。大部分人估计又不看重小钱，试问发现地上有一分钱，一角钱，能有几个人舍去所谓的面子去捡？</p><p>一命二运三风水，四积阴德五读书，最多教你磨练智商，你没有富二代的命，没有中头彩的运，没有马云马化腾这类人的眼光，但你起码还可以广积阴德，多读书投资自己，想赚钱，不要当块软趴趴的肉，也别做块硬邦邦的骨头，需要有韧带般的精神，隐忍和坚毅，长此以往，滴水石穿，就能赚到一些钱。当然同时你也会发现赚钱最多是不太难，但绝非“容易”二字。</p><p>能不能赚到钱，终归是一个考验情商的问题，需要智商到情商的巧妙转换。</p><p>佛陀曾被人问起如何能赚钱，佛陀的回答就是要学会布施。正所谓小富靠勤奋，中富靠机遇，大富靠眼光。世人却大多愿意一蹴而就，没有勤奋，哪来的机遇，机遇抓住的次数少了，又何来眼光？</p><p>谈到“容易”的大多答主，无外乎博人眼球，或另有索图。不少甚至是在炫耀如何“骗”钱骗的“如此容易”，和良心赚钱是两码事。</p><p>歪门邪道，千万不要沾，折损福报不说，还会严重削减人的气质和气场，人没有了正气，财神也不会眷顾你，就算勉强赚到点，也会很快失去。</p><p>真正赚到一些钱的人，绝不是每天早上必须端着一杯星巴克，在电梯里侃侃而谈什么”赚有钱人的钱“”赚女人和孩子的钱“”目标定位“”业态“””理念“等等诸如此类的狗屁辞藻的人。这些人的局限使得他们只懂得意淫，根本不明白商场竞争的残酷性，复杂性和多变性。</p><p>没有花里胡哨的配图，没有慷慨激昂的说辞，奉劝提问者还是能抛掉幻想，脚踏实地的开创或打拼出自己的一番天地。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;链接：&lt;a href=&quot;https://www.zhihu.com/question/30758136/answer/263013519&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.zhihu.com/question/30758
       
     
     </summary>
@@ -451,29 +451,6 @@
   </entry>
   
   <entry>
-    <title>职业的建议</title>
-    <link href="http://blog.scavenger.top/2018/01/01/plan/%E8%81%8C%E4%B8%9A%E7%9A%84%E5%BB%BA%E8%AE%AE/"/>
-    <id>http://blog.scavenger.top/2018/01/01/plan/职业的建议/</id>
-    <published>2018-01-01T04:12:12.000Z</published>
-    <updated>2018-06-17T12:25:34.746Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一、不要别人点什么，就做什么"><a href="#一、不要别人点什么，就做什么" class="headerlink" title="一、不要别人点什么，就做什么"></a>一、不要别人点什么，就做什么</h2><p>我的第一份工作，只干了8个月，那家公司就倒闭了。我问经理，接下来我该怎么办，他说：</p><blockquote><p>“小伙子，千万不要当一个被人点菜的厨师，别人点什么，你就烧什么。不要接受那样一份工作，别人下命令你该干什么，以及怎么干。你要去一个地方，那里的人肯定你对产品的想法，相信你的能力，放手让你去做。”</p></blockquote><p>我从此明白，单单实现一个产品是不够的，你还必须参与决定怎么实现。好的工程师并不仅仅服从命令，而且还给出反馈，帮助产品的拥有者改进它。</p><h2 id="二、推销自己"><a href="#二、推销自己" class="headerlink" title="二、推销自己"></a>二、推销自己</h2><p>我进入雅虎公司以后，经理有一天跟我谈话，他觉得我还做得不够。</p><blockquote><p>“你工作得很好，代码看上去不错，很少出Bug。但是，问题是别人都没看到这一点。为了让其他人相信你，你必须首先让别人知道你做了什么。你需要推销自己，引起别人的注意。”</p></blockquote><p>我这才意识到，即使做出了很好的工作，别人都不知道，也没用。做一个角落里静静编码的工程师，并不可取。你的主管会支持你，但是他没法替你宣传。公司的其他人需要明白你的价值，最好的办法就是告诉别人你做了什么。一封简单的Email：”嗨，我完成了XXX，欢迎将你的想法告诉我”，就很管用。</p><h2 id="三、学会带领团队"><a href="#三、学会带领团队" class="headerlink" title="三、学会带领团队"></a>三、学会带领团队</h2><p>工作几年后，已经没人怀疑我的技术能力了，大家知道我能写出高质量的可靠代码。有一次，我问主管，怎么才能得到提升，他说：</p><blockquote><p>“当你的技术能力过关以后，就要考验你与他人相处的能力了。”</p></blockquote><p>于是，我看到了，自己缺乏的是领导能力，如何带领一个团队，有效地与其他人协同工作，取到更大的成果。</p><h2 id="四、生活才是最重要的"><a href="#四、生活才是最重要的" class="headerlink" title="四、生活才是最重要的"></a>四、生活才是最重要的</h2><p>有一段时间，我在雅虎公司很有挫折感，对公司的一些做法不认同，经常会对别人发火。我问一个同事，他怎么能对这种事情保持平静，他回答：</p><blockquote><p>“你要想通，这一切并不重要。有人提交了烂代码，网站下线了，又怎么样？工作并不是你的整个生活。它们不是真正的问题，只是工作上的问题。真正重要的事情都发生在工作以外。我回到家，家里人正在等我，这才重要啊。”</p></blockquote><p>从此，我就把工作和生活分开了，只把它当作”工作问题”看待。这样一来，我对工作就总能心平气和，与人交流也更顺利了。</p><h2 id="五、自己找到道路"><a href="#五、自己找到道路" class="headerlink" title="五、自己找到道路"></a>五、自己找到道路</h2><p>我被提升为主管以后，不知道该怎么做。我请教了上级，他回答：</p><blockquote><p>“以前都是我们告诉你做什么，从现在开始，你必须自己回答这个问题了，我期待你来告诉我，什么事情需要做。”</p></blockquote><p>很多工程师都没有完成这个转变，如果能够做到，可能就说明你成熟了，学会了取舍。你不可能把时间花在所有事情上面，必须找到一个重点。</p><h2 id="六、把自己当成主人"><a href="#六、把自己当成主人" class="headerlink" title="六、把自己当成主人"></a>六、把自己当成主人</h2><p>我每天要开很多会，有些会议我根本无话可说。我对一个朋友说，我不知道自己为什么要参加这个会，也没有什么可以贡献，他说：</p><blockquote><p>“不要再去开这样的会了。你参加一个会，那是因为你参与了某件事。如果不确定自己为什么要在场，就停下来问。如果这件事不需要你，就离开。不要从头到尾都静静地参加一个会，要把自己当成负责人，大家会相信你的。”</p></blockquote><p>从那时起，我从没有一声不发地参加会议。我确保只参加那些需要我参加的会议。</p><h2 id="七、找到水平更高的人"><a href="#七、找到水平更高的人" class="headerlink" title="七、找到水平更高的人"></a>七、找到水平更高的人</h2><p>最后，让我从自己的经历出发，给我的读者一个建议。</p><blockquote><p>“找到那些比你水平更高、更聪明的人，尽量和他们在一起，吃饭或者喝咖啡，向他们讨教，了解他们拥有的知识。你的职业，甚至你的生活，都会因此变得更好。”</p></blockquote><p>阮一峰的网络日志  <a href="http://www.ruanyifeng.com/blog/2015/09/career-advice.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2015/09/career-advice.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;一、不要别人点什么，就做什么&quot;&gt;&lt;a href=&quot;#一、不要别人点什么，就做什么&quot; class=&quot;headerlink&quot; title=&quot;一、不要别人点什么，就做什么&quot;&gt;&lt;/a&gt;一、不要别人点什么，就做什么&lt;/h2&gt;&lt;p&gt;我的第一份工作，只干了8个月，那家公司就倒闭
-      
-    
-    </summary>
-    
-      <category term="plan" scheme="http://blog.scavenger.top/categories/plan/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>旅行计划</title>
     <link href="http://blog.scavenger.top/2018/01/01/plan/%E6%97%85%E8%A1%8C%E8%AE%A1%E5%88%92/"/>
     <id>http://blog.scavenger.top/2018/01/01/plan/旅行计划/</id>
@@ -492,6 +469,32 @@
 &lt;li&gt;行程 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;| 行程          | 价格         
+      
+    
+    </summary>
+    
+      <category term="plan" scheme="http://blog.scavenger.top/categories/plan/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>要玩的game</title>
+    <link href="http://blog.scavenger.top/2018/01/01/plan/%E8%A6%81%E7%8E%A9%E7%9A%84game/"/>
+    <id>http://blog.scavenger.top/2018/01/01/plan/要玩的game/</id>
+    <published>2018-01-01T04:12:12.000Z</published>
+    <updated>2018-06-17T12:25:34.746Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>ever17</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;ever17&lt;/li&gt;
+&lt;/ul&gt;
+
       
     
     </summary>
