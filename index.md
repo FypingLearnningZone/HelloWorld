@@ -1,6 +1,4 @@
-title: index
-date: 2018/1/1 12:12:12
----
+
 #  Note of Life
 
 
