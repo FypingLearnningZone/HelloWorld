@@ -5,7 +5,7 @@ date: 2018/1/1 12:12:12
 windows hosts path
 
 ```
-c:\windows\system32\drivers\etc
+c:\windows\system32\drivers\etc\hosts
 ```
 
 linux hosts path
