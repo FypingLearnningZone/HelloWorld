@@ -2,22 +2,16 @@
 
 
 
-- [ ]  flask_wtf
+- [ ] flask_wtf
 - [ ] wtfforms
 - [ ] blueprint的构成
 - [ ] flask_sqlalchemy
 - [ ] flask_redis
-
 - [x] flask扩展的使用
-
 - [ ] 理解源码
-
 - [ ] django源码
-
 - [ ] python面试题　排序算法
-
 - [ ] python cookbook
-
 - [ ] flask源码
 - [ ] django 源码
 - [ ] 爬虫
@@ -27,5 +21,29 @@
 - [ ] 开发过 Web API（如REST API）项目
 - [ ] html css javascript Jquery
 - [ ] 阅读英文文档
+- [ ] stackoverflow flask django python sql monggo redis top question
+- [ ] c
+- [ ] c++
+- [ ] java
+- [ ] lisp
+- [ ] php
+- [ ] 机器学习
+- [ ] python 源码
+- [ ] c 实现
+- [ ] 汇编
+- [ ] java 源码
+- [ ] linux 内核分析
+- [ ] sql源码　分析
+- [ ] black arch kali parrtot tools use
+- [ ] tcp/ip
+- [ ] 算法
+- [ ] 密码学
+- [ ] 社会工程学
+- [ ] javascript html css 实现　
+- [ ] windows 软件　分析
+- [ ] windows 系统分析
+- [ ] 
 
 
+
+相思
