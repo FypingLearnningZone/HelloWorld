@@ -22,6 +22,8 @@
 - [ ] html css javascript Jquery
 - [ ] 阅读英文文档
 - [ ] stackoverflow flask django python sql monggo redis top question
+
+
 - [ ] c
 - [ ] c++
 - [ ] java
@@ -42,8 +44,9 @@
 - [ ] javascript html css 实现　
 - [ ] windows 软件　分析
 - [ ] windows 系统分析
-- [ ] 
 
 
 
 相思
+
+群体心理学
