@@ -44,9 +44,15 @@
 - [ ] javascript html css 实现　
 - [ ] windows 软件　分析
 - [ ] windows 系统分析
+- [ ] flask_网站代码
+- [ ] python面试
+- [ ] cookbook
+- [ ] 数据结构，算法　　全站之路　面试的工厂设计方法
 
 
 
 相思
 
 群体心理学
+
+博客下的书
