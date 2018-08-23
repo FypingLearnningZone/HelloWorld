@@ -173,6 +173,40 @@ d.foo1()
 
 依次由内而外寻找,现在自己的作用域查找,找不到,再去上级查找,如果找不到就抛出异常 报错
 
+```python
+#终极版作用域
+ 
+name = "lzl"
+ 
+def f1():
+    print(name)
+ 
+def f2():
+    name = "eric"
+    f1()
+ 
+f2()
+#输出lzl
+
+#终极版作用域
+ 
+name = "lzl"
+ 
+def f1():
+    print(name)
+ 
+def f2():
+    name = "eric"
+    return f1
+ 
+ret = f2()
+ret()
+ 
+#输出：lzl
+```
+
+在执行f1()时,f1()与f2()没有关系,f1()向上一级查找,即全局变量``` name="lzl"```
+
 ##### 16.range和xrange
 
 在python2.x中range创建的是一个list,而xrange生成的是一个生成器.每次调用返回其中的一个值
@@ -244,6 +278,30 @@ python GC主要使用 引用计数 （reference counting）来跟踪和回收垃
 
    举例： 当某些内存块M经过了3次垃圾收集的清洗之后还存活时，我们就将内存块M划到一个集合A中去，而新分配的内存都划分到集合B中去。当垃圾收集开始工作时，大多数情况都只对集合B进行垃圾回收，而对集合A进行垃圾回收要隔相当长一段时间后才进行，这就使得垃圾收集机制需要处理的内存少了，效率自然就提高了。在这个过程中，集合B中的某些内存块由于存活时间长而会被转移到集合A中，当然，集合A中实际上也存在一些垃圾，这些垃圾的回收会因为这种分代的机制而被延迟。
 
-##### 21.
+##### 21.闭包
 
-   
+- 闭包避免了使用全局变量
+- 闭包 使即使脱离了函数本身的作用范围，局部变量还可以被访问得到
+
+##### 22.python2.x与3.x
+
+##### 23.GIL线程全局锁
+
+线程全局锁(Global Interpreter Lock),即Python为了保证线程安全而采取的独立线程运行的限制,说白了就是一个核只能在同一时间运行一个线程.**对于io密集型任务，python的多线程起到作用，但对于cpu密集型任务，python的多线程几乎占不到任何优势，还有可能因为争夺资源而变慢。**
+
+见[Python 最难的问题](http://www.oschina.net/translate/pythons-hardest-problem)
+
+解决办法就是多进程和下面的协程(协程也只是单CPU,但是能减小切换代价提升性能).
+
+##### 24.协程
+
+简单点说协程是进程和线程的升级版,进程和线程都面临着内核态和用户态的切换问题而耗费许多切换时间,而协程就是用户自己控制切换的时机,不再需要陷入系统的内核态.
+
+Python里最常见的yield就是协程的思想!可以查看第九个问题.
+
+
+
+###### Reference
+
+- [taizilongxu/interview_python](https://github.com/taizilongxu/interview_python#9-%E8%BF%AD%E4%BB%A3%E5%99%A8%E5%92%8C%E7%94%9F%E6%88%90%E5%99%A8)
+- [python之禅](https://foofish.net/categories.html)
