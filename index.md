@@ -101,3 +101,23 @@
 
 
 
+```python
+def find_reason(res):
+    #do something
+    find_reson(res)
+    return finall
+
+find_reason(res)
+#can you get the finall?
+
+循环 1,2
+1.为什么 + 文字
+2.文字 = 为什么 + 文字
+```
+
+The person' value,shows by story
+
+人物性格的凸显，体现在故事中
+
+
+

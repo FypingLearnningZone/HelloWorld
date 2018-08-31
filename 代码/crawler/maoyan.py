@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 #猫眼电影爬虫，存储为csv格式
 
 import requests
@@ -8,7 +9,7 @@ from requests.exceptions import RequestException
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
 }
-with open('output.csv', 'a', encoding='utf-8') as file:
+with open('output.csv', 'a') as file:
     file.write('影片名,主演, , ,上映时间\n')
 
 def html_get(c_url):
@@ -31,7 +32,7 @@ def html_parser(r):
 
 
 def res_write(res):
-    with open('output.csv', 'a', encoding='utf-8') as file:
+    with open('output.csv', 'a') as file:
         file.write(res+'\n')
 
 root_url = "http://maoyan.com/board/4?offset={num}"
