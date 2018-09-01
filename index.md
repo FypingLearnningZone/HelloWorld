@@ -30,6 +30,8 @@
 > Stupid people do not pay attention to their personal information security
 >
 > 如果你只学方法，你就依赖方法。但如果你学会原理，你可以发明自己的方法。—— 爱默生 
+>
+> 累死的人很少,人往往是想死的
 
 -------------------
 
