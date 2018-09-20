@@ -7,6 +7,31 @@
 对不可变对象进行重新赋值,实际上是创建一个新的不可变对象,并将原引用指向新创建的对象
 对可变类型修改后,还是指向同个内存地址，是在原处修改
 
+###### 不可变(immutable)对象类型
+
+- int
+- float
+- decimal(高精度浮点运算)
+- complex(复数)
+- bool
+- string
+- tuple
+- range
+- frozenset(不可变集合)
+- bytes
+
+###### 可变(mutable)对象类型
+
+- list
+- dict
+- set
+- bytearray
+- user-defined classes (unless specifically made immutable)
+
+怎么记忆这些可变或者不可变的对象类型呢？很简单，容器（containers）和自定义（user-defined）类型都是可变的，最典型的就是list，列表类型相当于一个容器，数据可以放进去，可以取出来，所以是可变对象类型。标量类型（scalar type）的对象基本上都是不可变，比如，int，string。但是，有一个例外，tuple是一种不可变对象类型，其实也很好理解，元组声明完成之后，就无法再进行修改，自然是不可变对象类型。
+
+refer [Python对象：可变和不可变对象类型](http://www.blue7wings.com/python/Python-objects-mutable-vs-immutable.html)
+
 ##### 2.变量
 
 变量可以理解为是内存中一个对象的"引用"
@@ -106,6 +131,14 @@ __foo 解析器用_classname__foo 来代替这个名字,以区别其他类中相
 ```
 
 通过列表生成式，可以直接创建一个列表。但是，受到内存限制，列表容量肯定是有限的。而且，创建一个包含百万元素的列表，不仅是占用很大的内存空间，如：我们只需要访问前面的几个元素，后面大部分元素所占的空间都是浪费的。因此，没有必要创建完整的列表（节省大量内存空间）。在Python中，我们可以采用生成器：边循环，边计算的机制—>generator
+
+
+
+列表推导list comprehension和生成器的优劣；
+
+列表推导优点: 简洁而强大; 缺点: 列表推导立即执行, 如果列表内元素较多需要占用较大的内存空间. 生成器优点: 由于是先计算后产出值并且是一次产出一个值, 所以内存占用空间少, 并且可以表示无限序列; 缺点: 比普通函数运行慢很多.但这几乎不成问题,Python3中越来越多的接口默认返回的迭代器都是生成器类型.
+
+
 
 ##### 10.AOP面向切面编程,与装饰器
 
@@ -337,6 +370,30 @@ u'\u4e2d\u6587'
 >>> u'中文'.encode('utf-8')
 '\xe4\xb8\xad\xe6\x96\x87'
 ```
+
+```Python
+# Python 3
+str.encode() -> bytes
+bytes.decode() -> str
+
+str: a sequence of code points (unicode)
+
+bytes: a sequence of bytes
+```
+
+Python 3中 str 与 bytes之间的转换必须是显示转换, 不能隐式转换, 否则报错.
+
+[Python 开发中编码遵循三明治原则](https://nedbatchelder.com/text/unipain/unipain.html#35):
+
+```
+bytes -> str 解码输出的字节序列
+
+str 100% 业务逻辑只处理文本
+
+str -> bytes 编码输出的文本
+```
+
+
 
 ###### Reference
 
