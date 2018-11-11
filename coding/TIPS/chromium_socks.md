@@ -6,7 +6,7 @@ date: 2018/1/1 12:12:12
 To configure chrome to proxy traffic through the SOCKS v5 proxy server **\*myproxy:8080***, launch chrome with these two command-line flags:
 
 ```
---proxy-server="socks5://myproxy:8080"
+--proxy-server="socks5://127.0.0.1:1080"
 --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE *myproxy*"
 ```
 

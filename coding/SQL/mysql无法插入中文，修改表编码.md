@@ -1,3 +1,9 @@
+```
+CREATE DATABASE `mydb` CHARACTER SET utf8 COLLATE utf8_general_ci;
+```
+
+
+
 修改数据库字符集：
 
 ```

@@ -8,6 +8,9 @@ apt-get update
 apt-get install nginx
 
 #安装Mysql
+sudo apt-get install mysql-server 
+sudo mysql_secure_installation
+#安装php
 apt-get install php7.0
 #Nginx生效的站点配置文件在/etc/nginx/sites-enabled/目录下
 #安装php-fpm
