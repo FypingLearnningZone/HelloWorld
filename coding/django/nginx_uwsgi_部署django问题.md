@@ -74,6 +74,8 @@ vacuum          = true
 ```bash
 #用uwsgi启动整个站点
 uwsgi --ini mysite_uwsgi.ini
+#
+uwsgi --enable-threads wechat_uwsgi.ini
 ```
 
 
