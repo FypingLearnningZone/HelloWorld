@@ -32,6 +32,7 @@
    10. to_do_list 里的东西
    11. 微软 前端fabric
    12. tor
+   13. Scheme
 
 5. 看书
 
@@ -75,6 +76,18 @@
 谷歌深度学习 https://developers.google.com/machine-learning/guides/
 写一个解释器 教程文档 http://craftinginterpreters.com/contents.html
 标准文档 https://tools.ietf.org/
+
+| 时间      |      |      |
+| --------- | ---- | ---- |
+| 6:00      | 起床 |      |
+| 6:00-6:30 | 洗漱 |      |
+| 6:30:7:00 | 编程 |      |
+| 7:30:8:30 | 锻炼 |      |
+| 6:30:7:00 | 吃饭 |      |
+| 7:00-8:00 | 练琴 |      |
+| 8:00-9:00 | 编程 |      |
+| 10:00     | 睡觉 |      |
+|           |      |      |
 
 
 
