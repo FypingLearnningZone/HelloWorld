@@ -65,14 +65,6 @@
 
 
 
-1官方9.0
-
-2.msksk root
-
-3.pico google
-
-4.去除索尼服务
-
 谷歌深度学习 https://developers.google.com/machine-learning/guides/
 写一个解释器 教程文档 http://craftinginterpreters.com/contents.html
 标准文档 https://tools.ietf.org/
@@ -89,5 +81,13 @@
 | 10:00     | 睡觉 |      |
 |           |      |      |
 
+根据面试资料准备
 
+发面试 收集经验
+
+学习英语
+
+滑步 锻炼
+
+不活白不活
 
