@@ -42,5 +42,36 @@ pm uninstall --user 0 com.sonymobile.music.youtubeplugin
 pm uninstall --user 0 com.sonymobile.music.youtubekaraokeplugin
 pm uninstall --user 0 com.sonymobile.music.youtubeplugin
 pm uninstall --user 0 com.google.android.youtube                              //YouTube
+com.facebook.services
+com.facebook.katana
+com.facebook.system
+com.facebook.appmanager
+com.spotify.music
+com.android.stk
+com.google.android.apps.tachyon 
+```
+
+pm grant com.fb.fluid android.permission.WRITE_SECURE_SETTINGS
+
+
+
+adb -d shell sh /data/data/me.piebridge.brevent/brevent.sh
+
+
+
+解锁
+
+```
+1.解锁码申请
+地址 http://unlockbootloader.sonymobile.com/
+需要 挂梯子、手机登录（需是移动页面）
+2.安装驱动
+安装FlashTool 安装完强刷工具后，找到 X:\Flashtool\drivers 路径 安装驱动
+注：win10安装驱动需禁用签名，具体参考：https://jingyan.baidu.com/article/546ae185d818941148f28c6c.html
+装Flashmod（绿灯）、Fastboot（蓝灯）驱动
+3.解锁
+https://developer.sony.com/develop/open-devices/get-started/unlock-bootloader/how-to-unlock-bootloader/
+4.刷twrp
+fastboot flash recovery twrp.img
 ```
 
