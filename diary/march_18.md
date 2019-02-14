@@ -414,28 +414,3 @@ I am aways waiting for you ever and forever
   ```
 
 
-
-ver
-
----
-
-* #### 2022.08.28
-
-  I saw you smile today ,I almost forgot you faded away.
-
-  ```
-   I will never give up again.
-
-  “我再也不会放弃，
-
-  Because if I die，
-
-  因为如果我死去了，
-
-  These memories of you die with me，
-
-  关于你的所有记忆也会随着我的死去一同消逝。”
-  ```
-
-
-
