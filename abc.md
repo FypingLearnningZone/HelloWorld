@@ -14,6 +14,10 @@
 
 多个靠前领域的交集
 
+留意想法  make things fifferents 
+
+flay with lili  make a system
+
 
 
 deadline:2.5 +5.5
@@ -44,7 +48,7 @@ deadline:2.5 +5.5
 
     11. c语言 一个项目
 
-    12. java 语言 一个项目 安卓项目
+    12. java 语言 一个项目 安卓项目 wd项目
 
     13. Goggle  面试
 
@@ -98,9 +102,17 @@ deadline:2.5 +5.5
 
 
 
-4. 画画
+4. 画画注意情感的表达  不要做一个操作员  
 
-   1. pin2d 
+   make things different .the value show by the different 不可替代的
+
+   ````
+   熟练线条
+   完成pin2d 的人物教程
+   
+   厚涂风格 与 线条风格
+   blender 渲染 建模
+   ````
 
 5. 弹吉他
 
