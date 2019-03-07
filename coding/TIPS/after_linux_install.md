@@ -1,5 +1,3 @@
-title: after_linux_install
-date: 2018/1/1 12:12:12
 ```
 生成源文件
 sudo pacman-mirrors -i -c China -m rank
@@ -30,3 +28,30 @@ libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev
 
 ```
+
+```
+google-chrome
+chromium
+firefox
+filezilla
+virtual box
+https://www.jetbrains.com/pycharm/download/#section=linux
+https://www.virtualbox.org/wiki/Linux_Downloads
+https://typora.io/#linux
+shadowsokcs-qt5
+sudo apt install fcitx-googlepinyin
+mysql
+redis
+```
+
+```
+全局代理，写入配置
+git config --global http.proxy 'socks5://127.0.0.1:1086'
+git config --global https.proxy 'socks5://127.0.0.1:1086'
+清除配置
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+临时代理
+ALL_PROXY=socks5://127.0.0.1:8888 git clone https://github.com/some/one.git
+```
+

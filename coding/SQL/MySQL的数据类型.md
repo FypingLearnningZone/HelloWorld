@@ -19,4 +19,4 @@
 - 能够用数字类型的字段尽量选择数字类型而不用字符串类型的（电话号码），这会降低查询和连接的性能，并会增加存储开销。这是因为引擎在处理查询和连接回逐个比较字符串中每一个字符，而对于数字型而言只需要比较一次就够了。
 
 ###### Reference
-- http://www.cnblogs.com/cnmenglang/p/6394888.html
+- http://www.cnblogs.com/cnmenglang/p/6394888.htmlsssss

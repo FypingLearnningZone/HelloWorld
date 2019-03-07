@@ -18,7 +18,7 @@
 
 flay with lili  make a system
 
-
+要有专精 你的时间精力有限
 
 deadline:2.5 +5.5
 
