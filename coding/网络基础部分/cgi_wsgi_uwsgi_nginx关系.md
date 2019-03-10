@@ -13,3 +13,4 @@ uWSGI 是一个 Web 服务器，它实现了 WSGI 协议、uwsgi协议、http �
 
 # 为什么有了uWSGI为什么还需要nginx？
 因为nginx具备优秀的静态内容处理能力，然后将动态内容转发给uWSGI服务器，这样可以达到很好的客户端响应。
+
