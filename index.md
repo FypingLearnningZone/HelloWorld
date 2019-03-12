@@ -129,3 +129,7 @@ The person' value,shows by story
 
 
 
+在这个繁杂的世界中  我们所知道的大部分都是信息而不是知识
+
+
+
