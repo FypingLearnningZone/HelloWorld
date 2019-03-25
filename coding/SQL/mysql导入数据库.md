@@ -4,13 +4,7 @@
 
 ## 1、mysql 命令导入
 
-使用 mysql 命令导入语法格式为：
-
-```
-mysql -u用户名    -p密码    <  要导入的数据库数据(runoob.sql)
-```
-
-**实例：**
+使用 mysql 命令导入语法格式为：**实例：**
 
 ```
 # mysql -uroot -p123456 < runoob.sql

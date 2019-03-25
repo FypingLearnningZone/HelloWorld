@@ -1,36 +1,4 @@
-uwsgi 
-
-nginx
-
-apach
-
-vue
-
-
-
-测试 
-
-著作权
-
-移动端选型
-
-更新的时间 detaill
-
- 易岁贴
-
- 图改传感器logo
-
-
-
-看vue_shop project
-
-修bug 删除按钮 更新用户数据
-
-
-
-单词的话用间隔复习发则
-
-
+完成主要的的东西 你只能在某一时刻专注在一件事情上
 
 几个django项目
 
@@ -66,12 +34,53 @@ linux 学习
 
 ​	系统管理员的github
 
-​	
+
+
+根据龙飞虎列出计划
+
+根据 阿三的书学习单词 指导
+
+
+
+
+```
+if lakka == ok:
+   do wdg 250 gb 资源金手指
+   if keyboard != ok or gamepad == batter:
+       do 手柄  小鸡 或 xbox one
+   if done or need more disk space not game:
+       买固态 等到开始涨价开始买
+       ex900
+       ex920
+       pm981
+       
+if time == ok or price == down :
+    buy lumia 830 920 n9 n5800 儿时的按键  *.jar
+
+
+
+if time == ok:
+    vue iview es6 django shop 面试指南 react vue 饿了么
+    learn code and english
+    if board == True:
+        play guitar or practice draw or read book or practice speach
+
+
+if play_game == True:
+	GRID AUTO SPORT
+	ps2 巨响 硬盘里的单机游戏
+	网速快的地方
+	get a_great_computer
+	单机游戏 最好支持正版
+	
+	
+使用krita sai ps autodesk 绘画
+
+学徒
 
 
 
 
 
 
-
-
+```
