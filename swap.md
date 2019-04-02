@@ -38,7 +38,7 @@ linux 学习
 
 hadoop
 
-zmq
+zmq2
 
 
 
@@ -46,20 +46,15 @@ zmq
 
 根据 阿三的书学习单词 指导
 
+https://cangshui.net/?p=1976网站的live2d 娘
+
+
+
 
 
 
 ```
-if lakka == ok:
-   do wdg 250 gb 资源金手指
-   if keyboard != ok or gamepad == batter:
-       do 手柄  小鸡 或 xbox one
-   if done or need more disk space not game:
-       买固态 等到开始涨价开始买
-       ex900
-       ex920
-       pm981
-       
+
 if time == ok or price == down :
     buy lumia 830 920 n9 n5800 儿时的按键  *.jar
 
@@ -79,10 +74,37 @@ if play_game == True:
 	get a_great_computer
 	单机游戏 最好支持正版
 	
-	
-使用krita sai ps autodesk 绘画
-
 学徒
+
+文
+	读的书 文相关
+	读的文章 文相关
+
+网站
+	个人网站 要看的
+	模板网站
+	资源网站
+		模板
+		工具信息
+		新闻网站 资讯
+
+项目
+
+	
+英语学习
+
+数学学习
+	
+
+编程相关
+	语言
+	算法
+	深度学习
+	系统
+	
+	
+编程随想的githjub推荐网站
+	
 
 
 

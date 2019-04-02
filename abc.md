@@ -32,7 +32,9 @@ flay with lili  make a system
 
 deadline:2.5 +5.5
 
-1. 首先是编程  每天一个算法 数据结构
+完成 熟练 基础架构      再去研究框架结构 思想
+
+1. 首先是编程  每天一个算法 数据结构 leetcode 源码 https://github.com/tiankonguse/leetcode-solutions/
 
     > lern by do it 每天一道算法  发现自己的灵感 不同之处 不要做一个操作员  make things different 让它们吸引  笑来说的  独立思考  或是那本书中的 批判思考
 
@@ -40,33 +42,85 @@ deadline:2.5 +5.5
 
     2. jquery 文档 一星期
 
-    3. vue 一星期3天书 3天项目
+    3. vue 一星期3天书 3天项目 
 
-    4. react 一星期            js 需要知道                    这一个月熟练js相关的东西
+    4. 小的vue项目 饿了么 项目
 
-    5. nodejs 一星期 javascript 面试
+    5. vue shop 各个组件 多个项目 入门项目 https://github.com/gnemoug/ComPerformance
 
-    6. djnago 文档 一星期
+    6. 博客项目 
 
-    7. flask 源码 一星期
+    7. 500line
 
-    8. nginx apach      合格的系统管理员 linux命令 debian文档 kali文档 liux就该这么学             这一个月巩固服务器相关的东西
+    8. react 一星期            js 需要知道                    这一个月熟练js相关的东西
 
-    9. monggo db redis docker sql
+    9. nodejs 一星期 javascript 面试
 
-    10. python cookbook  面试题
+    10. djnago 文档 一星期 源码分析 https://www.hongweipeng.com/index.php/archives/1369/
 
-    11. c语言 一个项目                             这一个月 熟悉数据库相关的东西 
+    11. flask 源码 一星期 精简源码
 
-    12. java 语言 一个项目 安卓项目 wd项目golang
+    12. linux tools quick 教程 kali
 
-    13. Goggle  面试
+    13. 图解http tcp 深入到协议层  写一个shadowsocks     分析ara2c源码 或许python实现 下载项目ariang项目
 
-    14. 深度学习                                        这一个月 根据面试指南完善
+    14. 操作系统 协议 http://www.cnblogs.com/wupeiqi/articles/5040823.html python cookbook的协议部分 
 
-    15. 美国大学 计算机课程
+        各种书
 
-    16. lisp Scheme                                   做一个编辑器 学习 java c c++ lisp
+    15. nginx apach      合格的系统管理员 linux命令 debian文档 kali文档 liux就该这么学             这一个月巩固服务器相关的东西
+
+    16. monggo db redis docker sql
+
+    17. python cookbook  面试题
+
+    18. c语言 一个项目         
+
+    最值得阅读学习的 10 个 C 语言开源项目代码 伯乐在线的几个项目                   这一个月 熟悉               数据库                  相关的东西   http://blog.jobbole.com/79023/
+
+    19. java 语言 一个项目
+
+        安卓项目 
+
+        pipe 博客项目  
+
+        java https://github.com/proxyee-down-org/proxyee-down 下载项目
+
+        https://github.com/CyC2018/MBlog#%E5%9C%A8%E7%BA%BF%E6%BC%94%E7%A4%BA博客项目
+
+    20. Goggle  面试
+
+    21. 深度学习                                        这一个月 根据面试指南完善
+
+    22. 美国大学 计算机课程
+
+    23. lisp Scheme                                   做一个编辑器 学习 java c c++ lisp
+
+    24. 选看  https://www.fullstackpython.com/ 一个介绍全栈的技能树
+
+    25. js 技能树 项目 黑色背景
+
+    26. js live2d 项目https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md
+
+    27. 图表监控 项目 http://docs.grafana.org/features/panels/graph/
+
+    28. https://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene three.js
+
+    29. 几个面试仓库
+
+        google的
+
+        python的
+
+        js的
+
+        https://github.com/CyC2018/CS-Notes 全面的面试仓库
+
+        
+
+        python解释器
+
+        gcc解释器
 
         ```
         11. javascript vue revact 伯乐在线 一风的教程 Github
@@ -118,8 +172,11 @@ deadline:2.5 +5.5
        两个小孩里的书
        枪炮、细菌与钢铁
        中国人的性格
+       人月神话
        评论取自sicp 一峰推荐的书 和 网页上的编程指南
        计算机程序的构造和解释
+       商业报告https://github.com/it-ebooks 
+       国家数据 http://data.stats.gov.cn/
        https://program-think.blogspot.com/2011/02/book-review-chinese-characteristics.html
        博主，这篇文章有失水准啊，分了那么多条就跟星座喜欢分类一样，都是由人性的自私和自卑引起的，全世界都一样，中国人无非更压抑，这和统治者内用黄老，外示儒术有关，儒家就是个压抑人性但不解决根本问题的东西。看了那么多条，对我一点启发都没有，结论是这个外国佬缺乏对人性和社会学的认知，很多条都是似是而非，或者说背后是有深层次的原因的。比如株连那条是统治者和儒家配合使用的，让人不敢造反和杜绝日后寻仇。要说现代某些佛教可笑，他们现代基督教那才叫笑死人。缺乏时间概念和漠视精确等几条看看中国古代科技史就知道是误会，即使清朝末年中国产品在世博会上还是最好的。另外他对于佛和道的精髓显然无法理解，不过这个对于一个基督徒确实难了点。要是跟他说两条平行线可以相交或者时间可以弯曲他一定也无法理解，这可能就是他说的思绪混乱。基本上他说的那么多可以分两类，要么是人类的共性要么就太片面。顶多当时的清朝百姓普遍有儒家引起的压抑，自欺和缺乏独立思考，但这并非中国文化的本义，所以他所称的中国人既指大部分中国人，但又不是真正的中国人，此实乃中华民族近代来最大的悲哀。看博主文章几年了，对博主独立思考的精神和教化大众的苦心很是欣赏，政治和教育是复杂而又简单的东西，博主加油吧：）
        

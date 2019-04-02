@@ -1,6 +1,3 @@
-title: 推荐soft_ware
-date: 2018/1/1 12:12:12
----
 - phone
 
    - sper su
@@ -105,7 +102,7 @@ dbeaver
 evince
 
 cheese
-
+`
 shadowsocks
 
 filezilla
@@ -117,5 +114,11 @@ cheese
 shadowsocks
 
 filezilla
+
+
+
+```
+dmenu i3 i3-gaps i3-help i3exit i3lock i3status
+```
 
 
