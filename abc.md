@@ -32,6 +32,14 @@ flay with lili  make a system
 
 deadline:2.5 +5.5
 
+> 怎样
+>
+> road map
+>
+> 一本书
+>
+> 一个项目
+
 完成 熟练 基础架构      再去研究框架结构 思想
 
 1. 首先是编程  每天一个算法 数据结构 leetcode 源码 https://github.com/tiankonguse/leetcode-solutions/
@@ -63,6 +71,8 @@ deadline:2.5 +5.5
     12. linux tools quick 教程 kali
 
     13. 图解http tcp 深入到协议层  写一个shadowsocks     分析ara2c源码 或许python实现 下载项目ariang项目
+
+        多人绘画在线
 
     14. 操作系统 协议 http://www.cnblogs.com/wupeiqi/articles/5040823.html python cookbook的协议部分 
 
@@ -121,6 +131,28 @@ deadline:2.5 +5.5
         python解释器
 
         gcc解释器
+
+        编译原理 龙书 虎书 鲸书 <https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/4194>
+
+        **算法导论**
+
+        **《JavaScript Web 富应用开发》 （猫头鹰书）**
+
+        scip python 魔法书
+
+        **《DirectX 9.0 3D游戏开发编程基础》 （红龙书）**
+
+        **《OpenGL着色语言》（橙宝书）**
+
+        **《OpenGL超级宝典》 （蓝宝书）**
+
+        **《OpenGL编程指南(第八版)》 (红宝书)**
+
+        ue4源码
+
+        awosome 系列 <https://github.com/jobbole>
+
+        sql 练习
 
         ```
         11. javascript vue revact 伯乐在线 一风的教程 Github

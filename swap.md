@@ -48,6 +48,8 @@ zmq2
 
 https://cangshui.net/?p=1976网站的live2d 娘
 
+思考我是谁    神明过河 的船  人的不同
+
 
 
 

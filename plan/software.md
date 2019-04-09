@@ -1,11 +1,14 @@
+语音合成
 ```
+语音合成
 语言合成 言和 初音  深度学习 音调图语言合成 言和 初音  深度学习 音调图
 ```
 
+视频网页代理
 ```
 网页视频 代理
 ```
-
+自动拼图
 ```
 图片拼大图片
 ```
@@ -17,7 +20,7 @@
 ```
 了解软件 kali blackarch
 ```
-
+doss裂变下发
 ```
 doss
 
@@ -37,7 +40,7 @@ else
 ​    run task
 ​    send command
 ```
-
+博客 文档 书籍 系统 text editor
 ```
 服务器部署 和 
 
@@ -69,7 +72,7 @@ google 插件版 mac win linux
 
 学习vue shop 提供模板api 目录
 ```
-
+to do 列表
 ```
 #to do list
 ### 界面描述
@@ -94,19 +97,19 @@ index点击任务会跳转到任务详情，或是有一个展开菜单显示详
 
 #### 平台 android ios windows mac linux web
 ```
-
+实现shadowsocks
 ```
 实现一个shadowsocks 类
 ```
-
+服务器端操作系统 云桌面
 ```
 服务端的操作系统
 ```
-
+超链接关系可视化
 ```
 超链接可视化 关系可视化
 ```
-
+麦克风手机
 ```
 麦克风 手机
 ```
@@ -114,7 +117,7 @@ index点击任务会跳转到任务详情，或是有一个展开菜单显示详
 ```
 按键监听吃鸡
 ```
-
+前端模板
 ```
 模板
 # 技术支持
@@ -138,12 +141,13 @@ index点击任务会跳转到任务详情，或是有一个展开菜单显示详
 * 感悟 Green note
 
 ```
-   为人 。社交。 人生。
+多人会话 网页 服务端 跨平台
 ```
 多人绘画 p2p  深入协议层面
 页面使用fluter 或是html js css
 ```
-
-,'DejaVu Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'
-
+下载器
+```
+c js python  aria2   前端 多线程 多服务器 多网卡
+```
 
