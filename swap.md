@@ -75,8 +75,7 @@ if play_game == True:
 	网速快的地方
 	get a_great_computer
 	单机游戏 最好支持正版
-	
-学徒
+
 
 文
 	读的书 文相关
@@ -89,13 +88,6 @@ if play_game == True:
 		模板
 		工具信息
 		新闻网站 资讯
-
-项目
-
-	
-英语学习
-
-数学学习
 	
 
 编程相关
@@ -104,8 +96,8 @@ if play_game == True:
 	深度学习
 	系统
 	
-	
-编程随想的githjub推荐网站
+
+
 	
 
 
