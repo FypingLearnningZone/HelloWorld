@@ -69,34 +69,6 @@ if time == ok:
         play guitar or practice draw or read book or practice speach
 
 
-if play_game == True:
-	GRID AUTO SPORT
-	ps2 巨响 硬盘里的单机游戏
-	网速快的地方
-	get a_great_computer
-	单机游戏 最好支持正版
-
-
-文
-	读的书 文相关
-	读的文章 文相关
-
-网站
-	个人网站 要看的
-	模板网站
-	资源网站
-		模板
-		工具信息
-		新闻网站 资讯
-	
-
-编程相关
-	语言
-	算法
-	深度学习
-	系统
-	
-
 
 	
 
