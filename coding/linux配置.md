@@ -1,7 +1,19 @@
-manjaro
+arch
 
 ```
-chromium fcitx-im fcitx-configtool fcitx-googlepinyin shadowsocks-qt5 firefox npm evince cool-retro-term eclipse-cpp code mysql
+https://wiki.archlinux.org/index.php/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+
+执行useradd -m yourusername创建新用户，并执行passwd yourusername设置登陆密码。
+执行vim /etc/sudoers编辑sudo权限，复制一行root ALL=(ALL) ALL, 并替换其中的root为新用户名，保存并退出。
+
+
+alsa-utils xf86-video-vesa xorg xorg-xinit 
+
+fcitx-im fcitx-configtool fcitx-googlepinyin shadowsocks-qt5 npm mysql python python-pip konsole
+
+i3 git openssh htop screenfetch tree wget reminna chromium firefox  evince code python 
+
+typora pycharm tor
 ```
 
 
