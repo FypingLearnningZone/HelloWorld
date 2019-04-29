@@ -70,7 +70,7 @@ deadline:2.5 +5.5
 
     > lern by do it 每天一道算法  发现自己的灵感 不同之处 不要做一个操作员  make things different 让它们吸引  笑来说的  独立思考  或是那本书中的 批判思考
 
-    1. js 高级编程 一星期 es6
+    1. js 高级编程 一星期 es6 
 
     2. jquery 文档 一星期
 
