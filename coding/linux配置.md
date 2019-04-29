@@ -7,13 +7,25 @@ https://wiki.archlinux.org/index.php/Installation_guide_(%E7%AE%80%E4%BD%93%E4%B
 执行vim /etc/sudoers编辑sudo权限，复制一行root ALL=(ALL) ALL, 并替换其中的root为新用户名，保存并退出。
 
 
-alsa-utils xf86-video-vesa xorg xorg-xinit 
+alsa-utils xf86-video-vesa intel xorg xorg-xinit 
 
 fcitx-im fcitx-configtool fcitx-googlepinyin shadowsocks-qt5 npm mysql python python-pip konsole
 
 i3 git openssh htop screenfetch tree wget reminna chromium firefox  evince code python 
 
 typora pycharm tor
+
+中英文字体
+声音驱动
+调整声音
+截图
+
+```
+
+xubuntu
+
+```
+konsole gedit code reminna chromium firefox  evince code pcmanfm shadowsocks-qt5  fcitx-im fcitx-configtool fcitx-googlepinyin npm mysql python python-pip
 ```
 
 
