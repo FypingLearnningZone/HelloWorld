@@ -1,6 +1,6 @@
 完成主要的的东西 你只能在某一时刻专注在一件事情上
 
-几个django项目
+几个django项目 django api
 
 ​	https://www.cnblogs.com/derek1184405959/p/8579428.html
 
@@ -11,6 +11,8 @@
 ​	https://github.com/bailicangdu/vue2-elm
 
 ​	https://github.com/bailicangdu/vue2-manage
+
+小程序 和 router
 
 学习react
 
@@ -42,25 +44,40 @@ zmq2
 
 
 
-根据龙飞虎列出计划
+根据龙飞虎列出计划 还有 Kev Nair - The Complete Fluency Words (0)
 
 根据 阿三的书学习单词 指导
 
-https://cangshui.net/?p=1976网站的live2d 娘
-
-思考我是谁    神明过河 的船  人的不同
 
 
+优先级
+
+两本书
+
+​	批判思考
+
+​	如何看书
 
 
+
+
+
+反思
+
+​	那些伟大想法的对比 日记本里的     你好像总是不够深入 或是 没有意识到
+
+
+
+水仙 ever17
+
+
+
+添加plan
+
+​	虚拟环境 函数式与面向对象
 
 
 ```
-
-if time == ok or price == down :
-    buy lumia 830 920 n9 n5800 儿时的按键  *.jar
-
-
 
 if time == ok:
     vue iview es6 django shop 面试指南 react vue 饿了么
@@ -78,9 +95,3 @@ if time == ok:
 
 
 ```
-
-
-
-router
-
-参数传递
