@@ -9,8 +9,6 @@ Django的MTV模式本质上与MVC模式没有什么差别，也是各组件之�
 
 ​       此外，Django还有一个url分发器，它的作用是将一个个URL的页面请求分发给不同的view处理，view再调用相应的Model和Template
 
-![img](../../plan/plan_of_software/服务端的系统.assets/877318-20161120225842607-1712687818.png)
-
 # MVC
 MVC 模式同时提供了对 HTML、CSS 和 JavaScript 的完全控制。
 

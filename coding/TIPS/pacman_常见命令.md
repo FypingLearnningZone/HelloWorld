@@ -1,6 +1,3 @@
-title: pacman_常见命令
-date: 2018/1/1 12:12:12
----
 在 Archlinux 中，使用一条命令即可对整个系统进行更新：
 pacman -Syu
 如果你已经使用pacman -Sy将本地的包数据库与远程的仓库进行了同步，也可以只执行：pacman -Su

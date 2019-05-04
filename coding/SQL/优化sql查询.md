@@ -9,16 +9,7 @@
 4.重复查询相同的数据
 
 
-
-![](优化sql查询.assets/捕获.PNG)
-
-![](优化sql查询.assets/捕获2.PNG)
-
-
-
-![](优化sql查询.assets/捕获3.PNG)
-
-###### Reference
+##### Reference
 
 - 高性能mysql第三版
 
