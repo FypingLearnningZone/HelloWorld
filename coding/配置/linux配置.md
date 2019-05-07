@@ -29,6 +29,9 @@ xubuntu
 
 ```
 konsole gedit code reminna chromium firefox  evince code pcmanfm shadowsocks-qt5  fcitx-im fcitx-configtool fcitx-googlepinyin npm mysql python python-pip
+gthumb
+eog
+xarchiver 
 ```
 
 

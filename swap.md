@@ -144,7 +144,9 @@ if time == ok:
         play guitar or practice draw or read book or practice speach
 
 
-
+		
+	
+	
 	
 
 
