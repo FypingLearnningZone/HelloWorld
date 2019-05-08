@@ -61,7 +61,7 @@ def send_mail(content,my_users,my_sender,my_pass):
         msg['To'] = formataddr(["用户", ""])  # 括号里的对应收件人邮箱昵称、收件人邮箱账号
         msg['Subject'] = "你好"  # 邮件的主题，也可以说是标题
 
-        server = smtplib.SMTP_SSL("smtp.qq.com", 465)  # 发件人邮箱中的SMTP服务器，端口是25
+        server = smtplib.SMTP_SSL("smtp.qq.com", 465)  # 发件人邮箱中的SMTP服务器，端口是465
         server.login(my_sender, my_pass)  # 括号中对应的是发件人邮箱账号、邮箱密码
         server.sendmail(my_sender, my_users, msg.as_string())  # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
         server.quit()  # 关闭连接
