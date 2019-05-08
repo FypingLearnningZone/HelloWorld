@@ -7,8 +7,7 @@ import random
 from email.mime.text import MIMEText
 from email.utils import formataddr
 
-content = "hello"
-
+content_set = '''你好：\n我多年从事软件著作权的申请工作，经手的软著2000+以上，有丰富的申请经验，可以全程代办申请软件著作权的事项。并可以代写程序和说明书，您只需要提供一个名称或方向即可。\n申请软著费用：199元，代写程序说明书：299元。 全包只要498元。百分百拿证，可签订合同，拿到证书后付款。\n申请软件的可以用于高新企业认定，申请政府补贴，公司资质展示，个人加分项等。\n软著拿证速度快（30个工作日左右），无后续费用，申请成本低，是企业个人最有性价比的资质。\n如有疑问请随时联系，谢谢！\n\n{}\n\n电话/微信：13248594882\n地址：上海市浦东新区浙桥路277号'''
 headers = ['发送地址','接收地址','内容','是否成功','时间']
 
 history_filename = "history/"+time.strftime("%Y-%m-%d-%H-%M", time.localtime())+".csv"
@@ -79,7 +78,7 @@ def main_work():
         receive_user_list = read_receive_user_csv()
         for i in receive_user_list:
             match_sender = send_user_list[random.randint(0,len(send_user_list)-1)]#随机选择用户
-            send_mail(content,i["user_addr"],match_sender["user_name"],match_sender["pass_word"])
+            send_mail(content_set.format(str(i["user_addr"]))),i["user_addr"],match_sender["user_name"],match_sender["pass_word"])
         time.sleep(random.randint(1,5))#暂停随机秒数
 
 if __name__ == '__main__':
