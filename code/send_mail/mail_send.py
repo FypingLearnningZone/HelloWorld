@@ -21,7 +21,7 @@ content_set = '''{}：
 
 如有疑问请随时联系，谢谢！
 
-电话/微信：13248594882
+电话/微信：17157425298
 地址：上海市浦东新区浙桥路277号'''
 
 headers = ['发送地址','接收地址','内容','是否成功','时间']
@@ -85,7 +85,7 @@ def send_mail(content,my_users,my_sender,my_pass):
     except Exception:  # 如果 try 中的语句没有执行，则会执行下面的 ret=False
         ret = False
     #写入csv记录
-    rows = [(my_sender,my_users,content,ret,time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))]
+    rows = [(my_sender,my_users,"123",ret,time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))]
     write_csv(rows)
     print(my_users,my_sender,ret)
     return ret
@@ -96,15 +96,20 @@ def main_work():
         count = 0
         send_user_list = read_send_user_csv()
         receive_user_list = read_receive_user_csv()
+        te_count = 0
         for i in receive_user_list:
             
             count = count +1
+            te_count = te_count + 1
+            if te_count == 100:
+                te_count = 0
+                send_mail(content_set.format("te"),"1614056450@qq.com",match_sender["user_name"],match_sender["pass_word"])
             print(count)
             match_sender = send_user_list[random.randint(0,len(send_user_list)-1)]#随机选择用户
             # receive_user = str(i["user_addr"]) 
             # send_mail(content_set.format(receive_user[0:receive_user.index("@")]),receive_user,match_sender["user_name"],match_sender["pass_word"])
             send_mail(content_set.format(i["user_company"]),i["user_addr"],match_sender["user_name"],match_sender["pass_word"])
-            time.sleep(random.randint(1,10))
+            time.sleep(random.randint(60,60*10))
         # time.sleep(random.randint(1,5))#暂停随机秒数
         # time.sleep(100) #暂停随机秒数
         break
