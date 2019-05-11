@@ -1,6 +1,3 @@
-title: Unbroken
-date: 2018/1/1 12:12:12
----
 “So you have to trust that the dots will somehow will connect in your future
   You have to trust in something
   Your gut, destiny, life, karma, whatever.

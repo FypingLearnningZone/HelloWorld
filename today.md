@@ -12,7 +12,7 @@
 
 - [ ] python gui 
 
-- [ ]  学习vue 项目 
+- [ ]  学习vue 项目 3322
 
 ​	基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用 前后端
 
@@ -37,8 +37,6 @@
 - [ ] odoo
 
 ​	看odoo源码 odoo 文档 https://odoo-10-dev-translation.readthedocs.io/zh_CN/latest/index.html
-
-
 
 
 
