@@ -2,9 +2,8 @@
 
 - [ ] vue 插槽
 - [ ] 新组件
-- [ ] 自定义事件
 - [ ] html5
-- [ ] 
+- [ ] 整理文档
 - [ ] django api 模块
 - [ ] 几个django项目 django api
 - [ ] nginx 文档
