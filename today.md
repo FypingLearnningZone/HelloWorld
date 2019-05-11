@@ -1,9 +1,9 @@
 完成主要的的东西 你只能在某一时刻专注在一件事情上
 
-- [ ] vue 插槽
+- [x] vue 插槽
 - [ ] 新组件
-- [ ] html5
-- [ ] 整理文档
+- [x] html5
+- [x] 整理文档
 - [ ] django api 模块
 - [ ] 几个django项目 django api
 - [ ] nginx 文档
