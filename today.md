@@ -7,6 +7,8 @@
 - [ ] django api 模块
 - [ ] 几个django项目 django api
 - [ ] nginx 文档
+- [ ] 树莓派无人机
+- [ ] 电影
 
 ​	https://www.cnblogs.com/derek1184405959/p/8579428.html
 
@@ -52,6 +54,8 @@
   根据 阿三的书学习单词 指导
 
 - [ ] blender 大师
+
+- [ ] 绘画 爱的罗曼史
 
 
 
