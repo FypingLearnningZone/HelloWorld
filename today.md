@@ -1,20 +1,18 @@
 完成主要的的东西 你只能在某一时刻专注在一件事情上
 
 - [x] vue 插槽
-- [ ] 新组件
+- [x] 新组件
 - [x] html5
 - [x] 整理文档
 - [ ] django api 模块
 - [ ] 几个django项目 django api
+- [ ] css布局
 - [ ] nginx 文档
 - [ ] 树莓派无人机
-- [ ] 电影
-
-​	https://www.cnblogs.com/derek1184405959/p/8579428.html
 
 - [ ] python gui 
 
-- [ ]  学习vue 项目 3322
+- [ ]  学习vue 项目
 
 ​	基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用 前后端
 
@@ -55,7 +53,9 @@
 
 - [ ] blender 大师
 
-- [ ] 绘画 爱的罗曼史
+- [ ] 绘画  系统 找本书 实验错误 不要纠结与线条
+
+- [ ] 爱的罗曼史 five handroid
 
 
 
