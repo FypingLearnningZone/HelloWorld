@@ -8,11 +8,10 @@
 - [ ] 几个django项目 django api
 - [ ] css布局
 - [ ] nginx 文档
-- [ ] 树莓派无人机
-
+- [x] 树莓派无人机
 - [ ] python gui 
-
-- [ ]  学习vue 项目
+- [ ] php
+- [ ] 学习vue 项目
 
 ​	基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用 前后端
 
@@ -47,13 +46,23 @@
 
 - [ ] 了解比特币 机器人 股市机器人
 
-- [ ] 根据龙飞虎列出计划 还有 Kev Nair - The Complete Fluency Words (0)
+- [ ] 根据龙飞虎列出计划  我想象自己会开飞机
+
+  还有 Kev Nair - The Complete Fluency Words (0)
 
   根据 阿三的书学习单词 指导
 
+  假装的力量
+
+  把它当成自己身体一部分的力量
+
+  看了太多的番剧  现在看无字幕的凭语调 发音可以明白意思 
+
+  那英语呢？ 重复 第一个系统(编程随想(<https://program-think.blogspot.com/2019/03/Why-Thinking-Hard-So-Hard.html>)
+
 - [ ] blender 大师
 
-- [ ] 绘画  系统 找本书 实验错误 不要纠结与线条
+- [x] 绘画  系统 找本书 实验错误 不要纠结与线条
 
 - [ ] 爱的罗曼史 five handroid
 

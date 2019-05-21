@@ -8,12 +8,28 @@ if time == ok:
         play guitar or practice draw or read book or practice speach
 
 ```
-- [ ] 根据面试资料   准备
+根据面试资料   准备
+
+
+
+
+
+
+
+
+
 - [ ] 批判思考
 - [ ] 如何看书
 - [ ] 人类简历史
 - [ ] 未来简历史
-- [ ] blender 大师
+- [ ] 邪恶的互联网
+
+
+
+
+
+
+
 - [ ] 那些伟大想法的对比 日记本里的     你好像总是不够深入 或是 没有意识到
 - [ ] 水仙 ever17
 
