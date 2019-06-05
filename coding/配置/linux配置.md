@@ -14,7 +14,7 @@ fcitx-im fcitx-configtool fcitx-googlepinyin shadowsocks-qt5 npm mysql python py
 i3 git openssh htop screenfetch tree wget reminna chromium firefox  evince code python 
 
 typora pycharm tor
-
+截图软件
 中英文字体
 声音驱动
 调整声音
