@@ -14,13 +14,12 @@
 
 - [ ] python gui 
 
-- [ ]  学习vue 项目 3322
+- [ ] 学习vue 项目 3322
 
 - [ ] css布局
 - [ ] nginx 文档
 - [x] 树莓派无人机
-- [ ] python gui 
-- [ ] php
+- [x] php
 - [ ] 学习vue 项目
 
 ​	基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用 前后端
