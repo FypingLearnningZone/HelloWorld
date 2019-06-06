@@ -1,32 +1,42 @@
 完成主要的的东西 你只能在某一时刻专注在一件事情上
 
 - [x] vue 插槽
+
 - [x] 新组件
+
 - [x] 新组件
+
 - [x] html5
+
 - [x] 整理文档
+
 - [ ] django api 模块
+
+- [ ] django 上传文件
+
+- [ ] tcp 图解
+
 - [ ] 几个django项目 django api
 
 - [x] nginx 文档
-- [x] 树莓派无人机
-- [x] 电影
+- [ ] css布局
+  
 
-- [ ] python gui 
+
 
 - [ ] 学习vue 项目 3322
 
-- [ ] css布局
-- [ ] nginx 文档
-- [x] 树莓派无人机
-- [x] php
-- [ ] 学习vue 项目
+
 
 ​	基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用 前后端
 
 ​	https://github.com/bailicangdu/vue2-elm
 
 ​	https://github.com/bailicangdu/vue2-manage
+
+- [ ] flask django源码
+
+- [ ] python gui 
 
 - [ ] 小程序 和 router
 
